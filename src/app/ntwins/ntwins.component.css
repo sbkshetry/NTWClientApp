@@ -1,0 +1,83 @@
+
+	body
+    {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
+		background: #333;
+	}
+	.container
+	{
+		position: relative;
+		min-width: 300px;
+		min-height: 400px;
+		background: #333;
+		padding: 40px 30px 30px;
+		border-radius: 20px;
+		box-shadow: 25px 25px 75px rgba(0,0,0,.25),
+		10px 10px 70px rgba(0,0,0,.25),
+		inset -5px -5px -5px rgba(0,0,0,.25),
+		inset -5px -5px -5px rgba(0,0,0,.25);
+	}
+	.box
+	{
+		position: relative;
+		display: grid;
+	}
+	
+	.box #name
+	{
+		position: relative;
+		grid-column: span 4;
+		height: 100px;
+		width: 100%;
+		border: none;
+		outline: none;
+		background: #a7af7c;
+		margin-bottom: 10px;
+		border-radius: 10px;
+		box-shadow: 0 0 0 2px rgba(0,0,0,.75);
+		text-align: center;
+		padding: 10px;
+		font-size: 2em;
+	}
+	.box #cbutton
+	{
+		position: relative;
+		grid-column: span 4;
+		height: 100px;
+		width: 100%;
+		border: none;
+		outline: none;
+		background: rgb(2, 83, 158);
+		box-shadow: 0 0 0 2px rgba(0,0,0,.15);
+		text-align: center;
+		color: azure;
+		padding: 10px;
+		font-size: 2em;
+		border-radius: 40px;
+	}
+
+	#cbutton:hover{
+		cursor: pointer;
+		height: 101px;
+		width: 101%;
+		background: rgb(4, 42, 167);
+	}
+	.container p
+	{
+		position: relative;
+		display: grid;
+		height: 100px;
+		width: 100%;
+		border: none;
+		outline: none;
+		background: linear-gradient(180deg,#2f2f2f,#3f3f3f);
+		box-shadow: 0 0 0 2px rgba(0,0,0,.15);
+		text-align: left;
+		padding: 10px;
+		font-size: 2em;
+		color: #fff;
+		border-radius: 10px;
+	}
